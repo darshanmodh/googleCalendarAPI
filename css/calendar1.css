@@ -1,0 +1,152 @@
+body
+{
+  background-image:url(3.jpg);
+  background-repeat:repeat-xy;
+}
+
+tr.t1 td
+{
+    font:25px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+tr.d1 th {
+	background-image:url(theme/imagesqw.jpg);
+    color: #000;
+    font:30px  cursive; 
+	background-size:cover;
+}
+
+tr.d2
+{
+	background-image:url(theme/imageskk.jpg);
+    background-position:center;
+	height:95px;
+}
+
+a.a1
+{
+    color: #000;
+    font:30px cursive;
+}
+
+select
+{
+    color: #000;
+	background-image:url(theme/images7.jpg);
+	background-size:cover;
+    font:23px arial;
+}
+
+select.CountryList
+{
+    color: #000;
+	background-image:url(theme/images7.jpg);
+	background-size:cover;
+    font:15px arial;
+}
+
+a.l1
+{
+    color: #CFEBE6;
+    font: 30px arial;
+}
+
+div.l1
+{
+	height: 25px;
+	font-size: 48px;
+	text-align: center;
+	line-height: 95px;
+	font: 30px cursive;
+	vertical-align: central;
+}
+
+h1.w1
+{
+    color: #000;
+    font: 30px sans-serif;
+}
+
+span {
+    font-size: 20px;
+}
+
+#header
+{
+    position: relative;
+}
+
+#menu
+{
+    background: #C3C3C3;
+    color: white;
+    padding: 10px;
+}
+
+#menu a
+{
+    text-decoration: none;
+    padding: 7px;
+}
+
+#menu a:hover
+{
+    background: #e0e0e0;
+    color: red;
+}
+
+#header
+{
+    font-family: monospace;
+    font-size: x-large;
+    height:50px;
+    background: #CFEBE6;
+    color: black;
+/*    text-align: center;*/
+    letter-spacing: 3px;
+    box-sizing: border-box;
+
+    background:red;
+    animation:myfirst 5s infinite;
+    -moz-animation: myfirst 5s infinite;
+    -webkit-animation:myfirst 5s infinite; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+    from {background:#B0C4DE;}
+to {background:#778899;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    from {background:#B0C4DE;}
+to {background:#778899;}
+}
+
+#inspire
+{
+    background: transparent;
+    position:relative;
+    animation:mymove 5s;
+    -moz-animation:mymove 5s;
+    -webkit-animation:mymove 5s; /*Safari and Chrome*/
+}
+
+@keyframes mymove
+{
+    from {left:0px;}
+to {left:69%;}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+    from {left:0px;}
+to {left:69%;}
+}
+
+#cal
+{
+	color:#FFF;
+}

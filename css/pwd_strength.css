@@ -1,0 +1,58 @@
+#pwindicator {
+    margin-top: 4px;
+    width: 150px;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+.bar {
+    height: 4px;
+    float: right;
+    position: relative;
+}
+
+.pw-very-weak .bar {
+    background: #f00;
+    width: 30px;
+}
+
+.pw-very-weak .label {
+    color: #f00;
+}
+
+.pw-weak .bar {
+    background: #FF00FF;
+    width: 60px;
+}
+
+.pw-weak .label {
+    color: #FF00FF;
+}
+
+.pw-mediocre .bar {
+    background: #00F;
+    width: 90px;
+}
+
+.pw-mediocre .label {
+    color: #0000FF;
+}
+
+.pw-strong .bar {
+    background: #9900FF;
+    width: 120px;
+}
+
+.pw-strong .label {
+    color: #9900FF;
+}
+
+.pw-very-strong .bar {
+    background: #0F0;
+    width: 150px;
+}
+
+.pw-very-strong .label {
+    color: #0F0;
+}

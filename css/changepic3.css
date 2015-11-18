@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+	 background-image:url(theme/er.jpg);
+  	background-repeat:repeat-xy;
+}
+
+#upload
+{
+	padding:4px 6px;
+	border:solid 1px #000000;
+	border-radius:10px;
+	font-weight:600;
+	color:#600;
+	background:#6CF;
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+	-moz-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+}

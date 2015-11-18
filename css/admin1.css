@@ -1,0 +1,85 @@
+@import url("http://fonts.googleapis.com/css?family=Tangerine");
+
+h2 {
+color: #621907;
+text-shadow: #ead7be 2px 1px 1px;
+font: 3.0em 'Tangerine', Arial, Helvetica, sans-serif;
+clear:both;
+text-align:center;
+}
+
+#submit {
+	padding:4px 6px;
+	border:solid 1px #000000;
+	border-radius:10px;
+	font-weight:600;
+	color:#600;
+	background:#FFF;
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+	-moz-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+}
+
+#theme
+{
+	padding:4px 6px;
+	border:solid 1px #000000;
+	border-radius:10px;
+	font-weight:600;
+	color:#600;
+	background:#FFF;
+	-webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+	-moz-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+	box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #FFFFFF;
+}
+
+
+h3
+{
+font: 1.5em 'Tangerine', Arial, Helvetica, sans-serif;
+color: #621907;
+text-shadow: #ead7be 1px 1px 1px;
+font-weight:600;
+}
+
+b
+{
+font: 1.5em 'Tangerine', Arial, Helvetica, sans-serif;
+color: #621907;
+text-shadow: #ead7be 2px 1px 1px;
+font-weight:600;
+}
+
+h3
+{
+font: 1.5em 'Tangerine', Arial, Helvetica, sans-serif;
+color: #FFF;
+text-shadow: #ead7be 1px 1px 1px;
+font-weight:500;
+}
+
+body
+{
+  background-image:url(theme/3.jpg);
+  background-repeat:repeat-xy;
+}
+
+img
+{
+opacity:1.0;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+img:hover
+{
+opacity:0.4;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+td{
+	color:#621907;
+	width:192px;
+}
+
+th, strong{
+	color:#621907;
+}

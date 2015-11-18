@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tangerine'), url(HGfsyCL5WASpHOFnouG-RD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+h1
+{
+font: 3.0em 'Tangerine', Arial, Helvetica, sans-serif;
+color: #621907;
+text-shadow: #ead7be 1px 1px 1px;
+font-weight:800;
+}
